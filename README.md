@@ -4,7 +4,7 @@ Code to collect, analyze, and map ISM band sensor data in public spaces with a R
 
 I've tried to be complete, but there may be errors and ommission, so the code is provided as is.
 
-Provided as open source under the [MIT License](https://github.com/dirkbeer/ism_wardriving/raw/main/LICENSE)
+Provided open source under the [MIT License](https://github.com/dirkbeer/ism_wardriving/raw/main/LICENSE)
 
 Copyright ©2023 Dirk Beer
 

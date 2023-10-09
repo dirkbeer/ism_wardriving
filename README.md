@@ -12,7 +12,7 @@ Copyright ©2023 Dirk Beer
 
 ## Scripts:
 
-_rtl.py_ - receives sensor data from rtl_433 and gpsd and writes it to a time-stamped csv data file
+_rtl.py_ - receives sensor data from rtl_433 and gpsd and writes it to a time-stamped json data file
 
 _map.py_ - reads data file, extracts a list of unique sensors, serves reading location in web map
 

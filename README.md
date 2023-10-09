@@ -1,18 +1,18 @@
 # ism_wardriving
 
-Code to survey and collect ISM band sensor data in public spaces with a Raspberry Pi and cheap software defined receivers (SDRs).
+Code to collect, analyze, and map ISM band sensor data in public spaces with a Raspberry Pi and cheap software defined receivers (SDRs).
 
-This is code developed for my personal use, I've tried to be complete, but there may be errors and ommission, so the code is provided as is.
+I've tried to be complete, but there may be errors and ommission, so the code is provided as is.
 
-Provided as open source under the [MIT License](https://github.com/dirkbeer/ism_wardriving/raw/main/LICENSE)
+Provided open source under the [MIT License](https://github.com/dirkbeer/ism_wardriving/raw/main/LICENSE)
 
 Copyright ©2023 Dirk Beer
 
-![image](https://github.com/dirkbeer/ism_wardriving/assets/6425332/5f5d63c9-35d8-43fb-9034-f47e86de8dd3)
+![image](https://github.com/dirkbeer/ism_wardriving/assets/6425332/f6749998-d859-4517-8c3e-d1680a7926e5)
 
 ## Scripts:
 
-_rtl.py_ - receives sensor data from rtl_433 and gpsd and writes it to a time-stamped csv data file
+_rtl.py_ - receives sensor data from rtl_433 and gpsd and writes it to a time-stamped json data file
 
 _map.py_ - reads data file, extracts a list of unique sensors, serves reading location in web map
 

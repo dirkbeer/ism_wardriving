@@ -171,7 +171,8 @@ def plot_sensor_locations(filename, data, sorted_pairs, buffer=0.01):  # buffer 
                 continue
             model = entry['model'] if 'model' in entry else 'Unknown'
             id = entry['id'] if 'id' in entry else '-'
-            frequency = entry['frequency'] if 'frequency' in entry else 'Unknown'
+            frequency = entry['freq'] if 'freq' in entry else 'Unknown'
+            frequency = str(round(float(frequency)))
             latitudes.append(lat)
             longitudes.append(lon)
 

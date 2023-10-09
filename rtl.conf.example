@@ -1,0 +1,12 @@
+device driver=sdrplay
+settings antenna=A
+
+frequency 433.92M
+
+report_meta level
+
+output_tag gpsd,lat,lon,alt
+
+#output log
+output syslog:127.0.0.1:1514
+#output mqtt://localhost:1883,user=USERNAME,pass=PASSWORD,retain=0,devices=rtl_433[/id]

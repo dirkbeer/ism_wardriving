@@ -1,0 +1,15 @@
+[Unit]
+Description=Listening for ISM band signals on boot
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/sdr/ism_wardriving/rtl.py
+User=sdr
+WorkingDirectory=/home/sdr/ism_wardriving
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Environment="PYTHONPATH=/usr/local/lib/python3/dist-packages"
+StandardOutput=append:/home/sdr/ism_wardriving/data/logfile.log
+StandardError=append:/home/sdr/ism_wardriving/data/errorfile.log
+
+[Install]
+WantedBy=multi-user.target

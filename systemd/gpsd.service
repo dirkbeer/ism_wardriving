@@ -1,0 +1,14 @@
+[Unit]
+Description=Listening for GPS reports
+
+[Service]
+Type=forking
+ExecStart=/usr/local/sbin/gpsd -n /dev/ttyACM0
+User=root
+WorkingDirectory=/root
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+StandardOutput=append:/root/gpsdlog.log
+StandardError=append:/root/gpsderr.log
+
+[Install]
+WantedBy=multi-user.target

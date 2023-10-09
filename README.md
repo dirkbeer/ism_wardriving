@@ -8,7 +8,7 @@ Provided as open source under the [MIT License](https://github.com/dirkbeer/ism_
 
 Copyright ©2023 Dirk Beer
 
-![image](https://github.com/dirkbeer/ism_wardriving/assets/6425332/5f5d63c9-35d8-43fb-9034-f47e86de8dd3)
+![image](https://github.com/dirkbeer/ism_wardriving/assets/6425332/f6749998-d859-4517-8c3e-d1680a7926e5)
 
 ## Scripts:
 

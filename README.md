@@ -2,7 +2,7 @@
 
 Code to collect, analyze, and map ISM band sensor data in public spaces with a Raspberry Pi and cheap software defined receivers (SDRs).
 
-This is code developed for my personal use, I've tried to be complete, but there may be errors and ommission, so the code is provided as is.
+I've tried to be complete, but there may be errors and ommission, so the code is provided as is.
 
 Provided as open source under the [MIT License](https://github.com/dirkbeer/ism_wardriving/raw/main/LICENSE)
 

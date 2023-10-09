@@ -81,7 +81,7 @@ _systemd/gpsd.service_ - systemd script to run the locally compiled gspd because
    ```
    sudo apt install rtl-sdr rtl-433
    ```
-   or if using an SDRplay device, or you want the latest sensor support, build rtl-433 from source (recommended, apt package seems to be broken)
+   if you're using an SDRplay device, or you want the latest sensor support, build rtl-433 from source (recommended, apt package seems to be broken)
    ```
    sudo apt purge rtl-433 && hash -r
    git clone https://github.com/merbanan/rtl_433.git

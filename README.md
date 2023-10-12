@@ -1,4 +1,4 @@
-# ism_wardriving
+# Ism_Wardriving
 
 Code to collect, analyze, and map ISM band sensor data in public spaces with a Raspberry Pi and cheap software defined receivers (SDRs).
 
